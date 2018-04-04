@@ -1,0 +1,22 @@
+{
+  "name": "giphy-search",
+  "version": "1.0.0",
+  "description": "To show gif images to user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gif",
+    "search"
+  ],
+  "author": "Lalit Nagar <lalit.s.nagar@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}

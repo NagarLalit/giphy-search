@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/w3.css">
+    <script src="/js/gif.js"></script>
+    <script src="/js/jquery-3.2.0.js"></script>
+</head>
+
+<body>
+
+    <div class="w3-container w3-teal">
+        <h1>GIPHY Search</h1>
+    </div>
+
+    <div class="w3-container">
+        <p>
+            <label class="w3-text-blue"><b>Keyword</b></label>
+            <input type="text" class="w3-input w3-border" name="gif_keyword" id="gif_keyword" />
+        </p>
+
+        <p>
+            <button class="w3-btn w3-blue" onclick="getgiphy();">Search</button>
+        </p>
+    </div>
+
+    <div class="w3-container">
+        <div class="w3-content w3-display-container" id="gif_container">
+        </div>
+    </div>
+
+</body>
+
+</html>
